@@ -33,7 +33,8 @@
 }
 
 /* Project Card */
-.project-card {background: rgba(255, 255, 255, 0.15);
+.project-card {
+    background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(8px);
     padding: 20px;
     border-radius: 10px;
@@ -94,9 +95,50 @@
     background: #57606a;
 }
 
-/* Responsive Design */
+/* 🌟 Responsive Design */
+
+/* Tablets & Small Screens (768px and below) */
 @media (max-width: 768px) {
+    #projects {
+        padding: 60px 5%;
+    }
+
     .projects-container {
         grid-template-columns: 1fr;
+        /* Single column layout */
+    }
+
+    .project-card {
+        padding: 15px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile Screens (480px and below) */
+@media (max-width: 480px) {
+    #projects {
+        margin: 30px;
+        padding: 40px 5%;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .project-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .project-card p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 6px 10px;
+        font-size: 0.8rem;
     }
 }

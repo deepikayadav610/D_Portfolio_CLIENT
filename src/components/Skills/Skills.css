@@ -105,7 +105,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 30px;
     text-align: center;
     border-radius: 12px;
 }
@@ -155,12 +155,13 @@
         width: 320px;
         height: 220px;
     }
+        
         .certificate-section {
             width: 100%;
             margin: 0px auto;
         }
 
-    .certificate-items {
-        gap: 30px;
+        .certificate-items {
+        gap: 30px !important;
     }
 }
