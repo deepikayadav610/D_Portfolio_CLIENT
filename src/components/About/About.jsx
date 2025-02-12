@@ -54,7 +54,7 @@ const About = () => {
                                     <p><b>Percentage:</b> 73.6%</p>
                                 </div>
                             </div>
-                            <div className="education-item">
+                            <div className="education-item education-10">
                                 <div className="education-content">
                                     <p><b>Secondary (10th Grade)</b></p>
                                     <p>Central Public Academy, Chauri Chaura, Gorakhpur</p>

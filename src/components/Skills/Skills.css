@@ -148,11 +148,17 @@
     .skills-content {
         background: #1e3c72;
     }
-
+    .skills-container h3{
+        margin-bottom: 30px !important;
+    }
     .certificate-content img {
         width: 320px;
         height: 220px;
     }
+        .certificate-section {
+            width: 100%;
+            margin: 0px auto;
+        }
 
     .certificate-items {
         gap: 30px;
