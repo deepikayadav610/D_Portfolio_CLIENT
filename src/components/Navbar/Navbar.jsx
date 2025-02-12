@@ -39,7 +39,7 @@ const Navbar = () => {
                                 <a href="#skills" className='nav-link'>Skills & Certifications</a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className='nav-link'>Projects</a>
+                                <a href="#projects" className='nav-link'>Projects</a>
                             </li>
                             <li className="nav-item">
                                 <a href="#experience" className='nav-link'>Experience/Internships</a>
